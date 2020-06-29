@@ -17,4 +17,4 @@ We can find these settings in these sections:
  - 'Legacy' Audit Policy: Computer Configuration\Windows Settings\Security Settings\Local Policies\Audit Policy
  - Advanced Audit Policy: Computer Configuration\Windows Settings\Security Settings\Advanced Audit Policy Configuration
 
-Let's see an example:
+We don't recommend using both categories at the same time, since it might lead to unexpected resultant settings being applied. As a best practice we recommend to enable this setting: Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings policy setting under Local Policies\Security Options.
