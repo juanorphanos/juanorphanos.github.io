@@ -8,3 +8,5 @@ In our daily job as PFEs one of the most common questions we are asked in the Ac
 
 As always we recommend first going to docs.microsoft.com to find the documented recommendations and best practices for our products.
 
+## Question 1: Audit Policy vs Advanced Audit Policy, which one to use?
+
