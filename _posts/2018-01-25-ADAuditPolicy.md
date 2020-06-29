@@ -19,4 +19,6 @@ We can find these settings in these sections:
 
 We don't recommend using both categories at the same time, since it might lead to unexpected resultant settings being applied. As a best practice we recommend to enable this setting: Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings policy setting under Local Policies\Security Options.
 
-> Best Practice #1: Always use the ** Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings ** policy setting
+> Best Practice #1: Always use the Advanced Audit Policy settings instead of legacy settings
+
+> Best Practice #2: Always use the **Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings** policy setting
