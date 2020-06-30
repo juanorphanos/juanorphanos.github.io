@@ -32,3 +32,8 @@ DO you want a detailed list of the Policy categories and which events are genera
 
 You might think "very nice, but I don't have time to go through all that documentation and process, I need a quick reference of the recommended categories", well, just go to this link https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations#set-audit-policy-on-workstations-and-servers, and implement all the categories under the "Stronger Recommendation" column that are marked as DC (for Domain Controller). Add all that to your Default Domain Controllers Policy (or create a different GPO linked to the Domain Controllers OU) and voila you updated the audit settings to MSFT recommendations.
 
+
+> Best Practice #3: Always check the Updated Security Baselines with Security Compliance Toolkit, and regularly review them
+
+> Best Practice #4: If you need something very quick to start, review the recommendations in this article: https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations#set-audit-policy-on-workstations-and-servers
+
