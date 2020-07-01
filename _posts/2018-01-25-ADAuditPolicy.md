@@ -37,3 +37,5 @@ You might think "very nice, but I don't have time to go through all that documen
 
 > Best Practice #4: If you need something very quick to start, review the recommendations in [this article](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations#set-audit-policy-on-workstations-and-servers)
 
+## Question #3: Local Security Policy? secpol, Domain GPO, auditpol, too many tools, which one should I use?
+
