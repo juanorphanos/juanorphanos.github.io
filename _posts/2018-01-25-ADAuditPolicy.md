@@ -21,7 +21,7 @@ We don't recommend using both categories at the same time, since it might lead t
 
 > Best Practice #1: Always use the Advanced Audit Policy settings instead of legacy settings
 
-> Best Practice #2: Always use the **Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings** policy setting
+> Best Practice #2: Always use the **Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings** policy setting (set to Enabled)
 
 ## Question 2: Too many categories to choose from, don't know what to select
 
