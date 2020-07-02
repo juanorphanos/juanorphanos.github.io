@@ -39,3 +39,14 @@ You might think "very nice, but I don't have time to go through all that documen
 
 ## Question #3: Local Security Policy? secpol, Domain GPO, auditpol, too many tools, which one should I use?
 
+You might have noticed that there are several ways to configure and retrieve Audit Policy settings, you can use a Domain GPO, a Local GPO or auditpol.exe tools. If you have time I strongly recommend you reading [this article by Ned Pyle.](https://docs.microsoft.com/en-us/archive/blogs/askds/getting-the-effective-audit-policy-in-windows-7-and-2008-r2). As a summary, we can state that the best way to configure the Domain Controllers Audit Policy is via  GPO linked to the Domain COntrollers OU, and the best way to retrieve those settings is using the command "auditpol.exe /get /category:* ". Avoid using Local Policy Editor, auditpol or legacy tools such as secedit.
+
+> Best Practice #5: Always use a Group Policy Object linked to the Domain Controllers OU to set the Audit Policy
+
+> Best Practice #6: if you want to retrieve the Audit Policy settings in a server, the best way is using the "auditpol.exe /get /category:*
+
+## Question #4: How much size should I give to the log files?
+
+
+
+
