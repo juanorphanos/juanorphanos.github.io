@@ -47,6 +47,19 @@ You might have noticed that there are several ways to configure and retrieve Aud
 
 ## Question #4: How much size should I give to the log files?
 
+Estimating the amount of logs that are going to be recorded in the Security Event Log is a very challenging (maybe impossible) task. Many people wonder which is the recommended log size for the Security Log, and  the real answer is that , it's not that much important. Remember that the Security Event log is just for short time storage. Long term retentions SHOULD be stored in another system, being it a SIEM system such as Sentinel, QRadar or Splnunk, an Azure Log Analytics, a SCOM server or event a simple Windows Event Log Collector.
+
+However, we always rely on [this article](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349798(v=ws.10)) that states that the recommended log size is 4,194,240 (in KB). The default value is 20 MBs.
+
+The event log size can be specified with this GPO setting: Computer Configuration > Administrative Templates > Windows Components > Event Log Service > Security.
+
+> Best Practice #7: Event Logs are only for short term local storage, all security Events shuold be forwarded to a SIEM or collector system for long term storage and retrieval.
+
+> Best Practice #8: In modern 64 bit Operating Systems, set the Security log Size to 4,194,240 KB. 
 
 
+
+I hope all this information is useful for your. These are very simple recommendations to implement in your environment and you can quickly respond to your manager when they ask you "Do we have auditing in our Domain Controllers?"
+
+Have a good day!
 
