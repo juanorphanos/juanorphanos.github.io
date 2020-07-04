@@ -16,7 +16,7 @@ We can find these settings in these sections:
 
  - 'Legacy' Audit Policy: Computer Configuration\Windows Settings\Security Settings\Local Policies\Audit Policy
  
- ![Legacy Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG)
+ ![Legacy Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG){:height="80%" width="80%"}
  
 <img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG" alt="legacy audit policy" width="80%"/>
 
