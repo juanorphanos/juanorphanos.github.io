@@ -17,12 +17,12 @@ We can find these settings in these sections:
  - 'Legacy' Audit Policy: Computer Configuration\Windows Settings\Security Settings\Local Policies\Audit Policy
  
 
- ![Legacy Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG)
+ ![Legacy Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/src/images/auditpolicy.JPG)
 
 - Advanced Audit Policy: Computer Configuration\Windows Settings\Security Settings\Advanced Audit Policy Configuration
 
 
- ![Advanced Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/advancedaudit.JPG)
+ ![Advanced Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/src/images/advancedaudit.JPG)
 
 
 We don't recommend using both categories at the same time, since it might lead to unexpected resultant settings being applied. As a best practice we recommend to enable this setting: Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings policy setting under Local Policies\Security Options.
@@ -55,7 +55,7 @@ You might have noticed that there are several ways to configure and retrieve Aud
 
 
 
- ![auditpol get category](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolget.JPG)
+ ![auditpol get category](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/src/images/auditpolget.JPG)
 
 
 ## Question #4: How much size should I give to the log files?
@@ -71,7 +71,7 @@ The event log size can be specified with this GPO setting: Computer Configuratio
 > Best Practice #8: In modern 64 bit Operating Systems, set the Security log Size to 4,194,240 KB. 
 
 
- ![Log File Size](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/logfilesize.JPG)
+ ![Log File Size](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/src/images/logfilesize.JPG)
 
 
 I hope all this information is useful for your. These are very simple recommendations to implement in your environment and you can quickly respond to your manager when they ask you "Do we have auditing in our Domain Controllers?"
