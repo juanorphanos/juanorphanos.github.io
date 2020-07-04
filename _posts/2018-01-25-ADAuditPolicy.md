@@ -51,6 +51,11 @@ You might have noticed that there are several ways to configure and retrieve Aud
 
 > Best Practice #6: if you want to retrieve the Audit Policy settings in a server, the best way is using the "auditpol.exe /get /category:*
 
+
+
+<img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolget.JPG" alt="auditpol get category" width="80%"/>
+
+
 ## Question #4: How much size should I give to the log files?
 
 Estimating the amount of logs that are going to be recorded in the Security Event Log is a very challenging (maybe impossible) task. Many people wonder which is the recommended log size for the Security Log, and  the real answer is that , it's not that much important. Remember that the Security Event log is just for short time storage. Long term retentions SHOULD be stored in another system, being it a SIEM system such as Sentinel, QRadar or Splnunk, an Azure Log Analytics, a SCOM server or event a simple Windows Event Log Collector.
