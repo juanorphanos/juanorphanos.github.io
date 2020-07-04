@@ -17,15 +17,12 @@ We can find these settings in these sections:
  - 'Legacy' Audit Policy: Computer Configuration\Windows Settings\Security Settings\Local Policies\Audit Policy
  
 
- ![Legacy Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG =80%)
-
- 
-<img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG" alt="legacy audit policy" width="80%"/>
+ ![Legacy Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG)
 
 - Advanced Audit Policy: Computer Configuration\Windows Settings\Security Settings\Advanced Audit Policy Configuration
 
-<img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/advancedaudit.JPG" alt="advanced audit policy" width="80%"/>
 
+ ![Advanced Audit Policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/advancedaudit.JPG)
 
 
 We don't recommend using both categories at the same time, since it might lead to unexpected resultant settings being applied. As a best practice we recommend to enable this setting: Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings policy setting under Local Policies\Security Options.
@@ -58,7 +55,7 @@ You might have noticed that there are several ways to configure and retrieve Aud
 
 
 
-<img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolget.JPG" alt="auditpol get category" width="80%"/>
+ ![auditpol get category](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolget.JPG)
 
 
 ## Question #4: How much size should I give to the log files?
@@ -74,7 +71,8 @@ The event log size can be specified with this GPO setting: Computer Configuratio
 > Best Practice #8: In modern 64 bit Operating Systems, set the Security log Size to 4,194,240 KB. 
 
 
-<img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/logfilesize.JPG" alt="Log File Size" width="80%"/>
+ ![Log File Size](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/logfilesize.JPG)
+
 
 I hope all this information is useful for your. These are very simple recommendations to implement in your environment and you can quickly respond to your manager when they ask you "Do we have auditing in our Domain Controllers?"
 
