@@ -17,7 +17,7 @@ We can find these settings in these sections:
  - 'Legacy' Audit Policy: Computer Configuration\Windows Settings\Security Settings\Local Policies\Audit Policy
  - Advanced Audit Policy: Computer Configuration\Windows Settings\Security Settings\Advanced Audit Policy Configuration
 
-![advanced audit policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/advancedaudit.JPG)
+![advanced audit policy](https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/advancedaudit.JPG, =200x)
 
 
 
