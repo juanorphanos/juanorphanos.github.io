@@ -15,6 +15,9 @@ Audit Policies come with Windows since Windows 2000 times. These are the origina
 We can find these settings in these sections:
 
  - 'Legacy' Audit Policy: Computer Configuration\Windows Settings\Security Settings\Local Policies\Audit Policy
+ 
+ ![Legacy Audit Policy]({{ site.url }}/_posts/auditpolicy.JPG)
+ 
 <img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/auditpolicy.JPG" alt="legacy audit policy" width="80%"/>
 
 - Advanced Audit Policy: Computer Configuration\Windows Settings\Security Settings\Advanced Audit Policy Configuration
