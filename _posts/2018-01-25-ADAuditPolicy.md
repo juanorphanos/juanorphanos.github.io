@@ -69,6 +69,7 @@ The event log size can be specified with this GPO setting: Computer Configuratio
 > Best Practice #8: In modern 64 bit Operating Systems, set the Security log Size to 4,194,240 KB. 
 
 
+<img src="https://github.com/juanorphanos/juanorphanos.github.io/blob/master/_posts/logfilesize.JPG" alt="Log File Size" width="80%"/>
 
 I hope all this information is useful for your. These are very simple recommendations to implement in your environment and you can quickly respond to your manager when they ask you "Do we have auditing in our Domain Controllers?"
 
