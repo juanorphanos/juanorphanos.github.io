@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Some information about me:
 
-### More Information
+I am a Cloud Solution Architect at Microsoft with many years of experience on Security, Identity and Cloud Infrastructure. My main interests are now in AI applied to Security, Automation, Cloud Security, Identity and SecOps. 
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[LinkedIn]https://www.linkedin.com/in/juan-pablo-orphanos/
