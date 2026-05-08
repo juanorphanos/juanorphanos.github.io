@@ -49,5 +49,5 @@ Microsoft Defender for Identity, consolida señales desde diversas plataformas d
 |---|---|---|
 | Microsoft Entra Recommendations | Evalúa la configuración del tenant contra best practices de MS, y genera recomendaciones accionables. (Se ve en el portal de Entra ID) |Cobertura de MFA, legacy authentication, configuraciones débiles, etc|
 | Identity Secure Score | Métricas de seguridad que expresan en un porcentaje el cumplimiento de configuraciones alineado a las recomendaciones de MS. (se ven en el portal de Defender) | MFA, Conditional Access, SSPR, etc |
-| Conditional Access Coverage dashboard | Recomendaciones de cobertura de Conditional Access en portal de Entra ID  Apps sin proteger, usuarios sin cobertura, policy summary, etc |
+| Conditional Access Coverage dashboard | Recomendaciones de cobertura de Conditional Access en portal de Entra ID | Apps sin proteger, usuarios sin cobertura, policy summary, etc |
 
