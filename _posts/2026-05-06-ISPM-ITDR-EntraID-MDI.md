@@ -19,5 +19,5 @@ Podemos enumerar varios motivos de la complejidad de securizar nuestras identida
 
 Microsoft Defender for Identity, consolida señales desde diversas plataformas de identidad como Active Directory, Microsoft Entra ID, Okta, Active Directory Certificate Services, ADFS, servicios de Entra ID Connect, SailPoint o CyberArk.
 
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/72d3c4c6-ddbf-44a7-ae6d-32013c7ef6ca" />
+<img alt="image" src="https://raw.githubusercontent.com/juanorphanos/juanorphanos.github.io/refs/heads/master/images/ITDR.png" />
 
