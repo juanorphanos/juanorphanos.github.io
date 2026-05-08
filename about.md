@@ -11,4 +11,4 @@ I am a Cloud Solution Architect at Microsoft with many years of experience on Se
 
 ### Contact me
 
-[LinkedIn]https://www.linkedin.com/in/juan-pablo-orphanos/
+https://www.linkedin.com/in/juan-pablo-orphanos/
