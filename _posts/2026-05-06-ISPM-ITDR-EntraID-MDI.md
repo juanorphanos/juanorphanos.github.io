@@ -3,6 +3,8 @@ layout: post
 title: ISPM + ITDR con Entra ID y MDI
 ---
 
+Este será el primero de una serie de blog posts relacionados a un tema clave en Seguridad: Seguridad de Identidades, y en particular dos prácticas que cada dia tienen mas relevancia se van formalizando: ITDR e ISPM.
+
 En Seguridad, y en particular en Seguridad de Identidades, detectar ataques sobre nuestras identidades es parte del trabajo, pero no la única. Uno de los grandes problemas suele ser como operar un ciclo continuo que combine las prácticas de IAM (Identity and Access Management), ISPM (Identity Security Posture Management) e ITDR (Identity Threat Detection and Response). 
 
 ## ISPM y ITDR
@@ -41,5 +43,11 @@ Microsoft Defender for Identity, consolida señales desde diversas plataformas d
 
 <img alt="image" src="https://raw.githubusercontent.com/juanorphanos/juanorphanos.github.io/refs/heads/master/images/ITDR.png" />
 
+### Mapeo de features de Entra ID/MDI a ISPM
 
+| Funcionalidad | Relación con ISPM | Ejemplos de recomendaciones o señales |
+|---|---|---|
+| Microsoft Entra Recommendations | Evalúa la configuración del tenant contra best practices de MS, y genera recomendaciones accionables. (Se ve en el portal de Entra ID) |Cobertura de MFA, legacy authentication, configuraciones débiles, etc|
+| Identity Secure Score | Métricas de seguridad que expresan en un porcentaje el cumplimiento de configuraciones alineado a las recomendaciones de MS. (se ven en el portal de Defender) | MFA, Conditional Access, SSPR, etc |
+| Conditional Access Coverage dashboard | Recomendaciones de cobertura de Conditional Access en portal de Entra ID  Apps sin proteger, usuarios sin cobertura, policy summary, etc |
 
